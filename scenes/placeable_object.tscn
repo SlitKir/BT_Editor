@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkum2p1hk3i5"]
+
+[ext_resource type="Script" path="res://scenes/placeable_object.gd" id="1_nwfpw"]
+[ext_resource type="Texture2D" uid="uid://bjxwp7uxvuueh" path="res://Objects/Characters/Doctor.png" id="2_pef8b"]
+
+[node name="PlaceableObject" type="Node2D"]
+script = ExtResource("1_nwfpw")
+
+[node name="ObjectSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_pef8b")

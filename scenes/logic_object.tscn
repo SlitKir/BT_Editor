@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkmxqq1qckbkg"]
+
+[ext_resource type="Texture2D" uid="uid://kba8ccg65tiw" path="res://Objects/Technition.png" id="1_7p0eq"]
+[ext_resource type="Script" path="res://scenes/logic_object.gd" id="1_l6xxb"]
+
+[node name="LogicObject" type="Node2D"]
+script = ExtResource("1_l6xxb")
+
+[node name="LogicSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_7p0eq")

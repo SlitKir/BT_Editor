@@ -1,0 +1,260 @@
+[gd_scene load_steps=45 format=3 uid="uid://dsfbaggoqoovr"]
+
+[ext_resource type="Script" path="res://UI/selection_panel.gd" id="1_3na37"]
+[ext_resource type="Texture2D" uid="uid://u0mh6lp6lakm" path="res://Objects/Decor/sand_1.png" id="2_jmtfi"]
+[ext_resource type="Texture2D" uid="uid://b7ajh66fxp1bn" path="res://Objects/Decor/sand_2.png" id="3_4coch"]
+[ext_resource type="Texture2D" uid="uid://bq4q2ahbuwvs8" path="res://Objects/Decor/sand_4.png" id="4_4amw2"]
+[ext_resource type="Texture2D" uid="uid://4mjplhaitumo" path="res://Objects/Decor/sand_5.png" id="5_kr0ol"]
+[ext_resource type="Texture2D" uid="uid://7t2lqh3uoe4i" path="res://Objects/Decor/sand_6.png" id="6_3n0gs"]
+[ext_resource type="Texture2D" uid="uid://75l01xxgxm7f" path="res://Objects/Decor/sand_3_1.png" id="7_r8ptp"]
+[ext_resource type="Texture2D" uid="uid://cnacufn8nyqpo" path="res://Objects/Decor/sand_7.png" id="8_0nqn8"]
+[ext_resource type="Texture2D" uid="uid://cn82820v6j1ql" path="res://Objects/Decor/sand_3_2.png" id="8_jbp3h"]
+[ext_resource type="Texture2D" uid="uid://dqee0scljw7f0" path="res://Objects/Decor/rock_1.png" id="9_qvb31"]
+[ext_resource type="Texture2D" uid="uid://sa0muv3j062u" path="res://Objects/Decor/sand_3_3.png" id="11_kkjmp"]
+[ext_resource type="Texture2D" uid="uid://b84iby4iplsty" path="res://Objects/Decor/sand_3_4.png" id="12_iib4o"]
+[ext_resource type="Texture2D" uid="uid://ca5u822jcx8ij" path="res://Objects/Decor/rock_2.png" id="13_cq0kr"]
+[ext_resource type="Texture2D" uid="uid://b4abicnc254fi" path="res://Objects/Decor/rock_3.png" id="14_a62hv"]
+[ext_resource type="Texture2D" uid="uid://cma0j0j6oqbss" path="res://Objects/Decor/big_rock_1_1.png" id="15_2o2fe"]
+[ext_resource type="Texture2D" uid="uid://eyt0mq2mav3r" path="res://Objects/Decor/big_rock_1_2.png" id="16_1ktkh"]
+[ext_resource type="Texture2D" uid="uid://dqcwoni3ttift" path="res://Objects/Decor/sand_9.png" id="17_q63or"]
+[ext_resource type="Texture2D" uid="uid://jf6mj3t7j8o" path="res://Objects/Decor/sand_8.png" id="18_v88yp"]
+[ext_resource type="Texture2D" uid="uid://b6i4rkbvjvnjf" path="res://Objects/Decor/big_rock_1_3.png" id="19_yd4p1"]
+[ext_resource type="Texture2D" uid="uid://n4gv46plmtak" path="res://Objects/Decor/big_rock_1_4.png" id="20_iuclr"]
+[ext_resource type="Texture2D" uid="uid://2tniyb73sejg" path="res://Objects/Objects/house_1_1.png" id="21_qgaoe"]
+[ext_resource type="Texture2D" uid="uid://bk0ilmiepiytt" path="res://Objects/Objects/house_1_2.png" id="22_l10dl"]
+[ext_resource type="Texture2D" uid="uid://dry0sfoxl4jls" path="res://Objects/Objects/house_2_1.png" id="23_bcx6x"]
+[ext_resource type="Texture2D" uid="uid://c2m31namwdmj8" path="res://Objects/Objects/house_2_2.png" id="24_amp3y"]
+[ext_resource type="Texture2D" uid="uid://d52q0ild3636" path="res://Objects/Objects/house_1_3.png" id="25_feqiu"]
+[ext_resource type="Texture2D" uid="uid://bvrgy0s5kj6dv" path="res://Objects/Objects/house_1_4.png" id="26_h6oat"]
+[ext_resource type="Texture2D" uid="uid://mjn4unddsbt6" path="res://Objects/Objects/house_2_3.png" id="27_hwa38"]
+[ext_resource type="Texture2D" uid="uid://cqgfw7e7j8rok" path="res://Objects/Objects/house_2_4.png" id="28_s5o64"]
+[ext_resource type="Texture2D" uid="uid://b37ywcjj51ivr" path="res://Objects/Objects/house_3_1.png" id="29_7q5eu"]
+[ext_resource type="Texture2D" uid="uid://h54ywq1byayl" path="res://Objects/Objects/house_3_2.png" id="30_0twvy"]
+[ext_resource type="Texture2D" uid="uid://dexol2lyl6rau" path="res://Objects/Objects/house_4_1.png" id="31_1tvtu"]
+[ext_resource type="Texture2D" uid="uid://bu5clfgnddg8t" path="res://Objects/Objects/house_4_2.png" id="32_s5yu4"]
+[ext_resource type="Texture2D" uid="uid://bh8cqmkhlmcxa" path="res://Objects/Objects/house_3_3.png" id="33_wd6hk"]
+[ext_resource type="Texture2D" uid="uid://bjc5v0q40vew8" path="res://Objects/Objects/house_3_4.png" id="34_x8vyg"]
+[ext_resource type="Texture2D" uid="uid://shhpptj7e6jh" path="res://Objects/Objects/house_4_3.png" id="35_4ji5e"]
+[ext_resource type="Texture2D" uid="uid://dxfu6vvdgwomm" path="res://Objects/Objects/house_4_4.png" id="36_54700"]
+[ext_resource type="Texture2D" uid="uid://c7o44g37k55cc" path="res://Objects/Objects/house_5.png" id="37_qscfm"]
+[ext_resource type="Texture2D" uid="uid://ce1ia3dkvbakb" path="res://Objects/Objects/well_1.png" id="38_vsxyc"]
+[ext_resource type="Texture2D" uid="uid://6t1ta4lqp6b0" path="res://Objects/Objects/tree_1.png" id="39_10jge"]
+[ext_resource type="Texture2D" uid="uid://dyyp3phoupm6g" path="res://Objects/Objects/tree_3.png" id="40_otcum"]
+[ext_resource type="Texture2D" uid="uid://bjxwp7uxvuueh" path="res://Objects/Characters/Doctor.png" id="41_r705t"]
+[ext_resource type="Texture2D" uid="uid://d1t8ofjj31udg" path="res://Objects/Characters/Technician.png" id="42_wdu4t"]
+[ext_resource type="Texture2D" uid="uid://cbnotq77nggvi" path="res://Objects/Characters/Warior.png" id="43_ksmk1"]
+[ext_resource type="Texture2D" uid="uid://b3vc7luukmg8j" path="res://Objects/Characters/player.png" id="44_ujo12"]
+
+[node name="SelectionPanel" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -849.0
+offset_bottom = -475.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3na37")
+
+[node name="TabContainer" type="TabContainer" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 309.0
+offset_bottom = 170.0
+
+[node name="Decor" type="ScrollContainer" parent="TabContainer"]
+texture_filter = 1
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="TabContainer/Decor"]
+layout_mode = 2
+columns = 4
+
+[node name="Button" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+icon = ExtResource("2_jmtfi")
+
+[node name="Button2" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("3_4coch")
+
+[node name="Button3" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("4_4amw2")
+
+[node name="Button4" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("5_kr0ol")
+
+[node name="Button5" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+icon = ExtResource("6_3n0gs")
+
+[node name="Button6" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("7_r8ptp")
+expand_icon = true
+
+[node name="Button7" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("8_jbp3h")
+
+[node name="Button8" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("9_qvb31")
+
+[node name="Button9" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("8_0nqn8")
+
+[node name="Button10" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("11_kkjmp")
+
+[node name="Button11" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("12_iib4o")
+
+[node name="Button12" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("13_cq0kr")
+
+[node name="Button13" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("14_a62hv")
+
+[node name="Button14" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("15_2o2fe")
+
+[node name="Button15" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("16_1ktkh")
+
+[node name="Button16" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("17_q63or")
+
+[node name="Button17" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("18_v88yp")
+
+[node name="Button18" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("19_yd4p1")
+
+[node name="Button19" type="Button" parent="TabContainer/Decor/GridContainer"]
+layout_mode = 2
+icon = ExtResource("20_iuclr")
+
+[node name="Objects" type="ScrollContainer" parent="TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="TabContainer/Objects"]
+layout_mode = 2
+columns = 4
+
+[node name="Button3" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("21_qgaoe")
+
+[node name="Button4" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("22_l10dl")
+
+[node name="Button5" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("23_bcx6x")
+
+[node name="Button6" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("24_amp3y")
+
+[node name="Button7" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("25_feqiu")
+
+[node name="Button8" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("26_h6oat")
+
+[node name="Button9" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("27_hwa38")
+
+[node name="Button10" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("28_s5o64")
+
+[node name="Button11" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("29_7q5eu")
+
+[node name="Button12" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("30_0twvy")
+
+[node name="Button13" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("31_1tvtu")
+
+[node name="Button14" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("32_s5yu4")
+
+[node name="Button15" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("33_wd6hk")
+
+[node name="Button16" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("34_x8vyg")
+
+[node name="Button17" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("35_4ji5e")
+
+[node name="Button18" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("36_54700")
+
+[node name="Button19" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("37_qscfm")
+
+[node name="Button20" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("38_vsxyc")
+
+[node name="Button21" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("39_10jge")
+
+[node name="Button22" type="Button" parent="TabContainer/Objects/GridContainer"]
+layout_mode = 2
+icon = ExtResource("40_otcum")
+
+[node name="Characters" type="GridContainer" parent="TabContainer"]
+visible = false
+layout_mode = 2
+columns = 4
+
+[node name="Button4" type="Button" parent="TabContainer/Characters"]
+layout_mode = 2
+icon = ExtResource("41_r705t")
+
+[node name="Button5" type="Button" parent="TabContainer/Characters"]
+layout_mode = 2
+icon = ExtResource("42_wdu4t")
+
+[node name="Button6" type="Button" parent="TabContainer/Characters"]
+layout_mode = 2
+icon = ExtResource("43_ksmk1")
+
+[node name="Button7" type="Button" parent="TabContainer/Characters"]
+layout_mode = 2
+icon = ExtResource("44_ujo12")
